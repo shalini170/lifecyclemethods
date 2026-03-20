@@ -1,4 +1,4 @@
-# Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
+# Ex.No:2 To create a HelloWorld Activity using all lifecycles methods to display messages.
 
 
 ## AIM:
@@ -33,7 +33,7 @@ Developed by:shalini venkatesulu
 Registeration Number :212223220104
 */
 ```
-MAIN ACTIVITY-XML
+ACTIVITY MAIN-XML
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,7 +46,7 @@ MAIN ACTIVITY-XML
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QWERTY"
+        android:text="HOME"
         android:textAlignment="center"
         android:textColor="#4CAF50"
         android:textColorHighlight="#03A9F4"
@@ -61,15 +61,15 @@ MAIN ACTIVITY-XML
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
-        android:text="abc"
+        android:text="HELLO"
         android:textAlignment="center"
-        android:textColor="#F44336"
+        android:textColor="#03A9F4"
         android:textColorHighlight="#03A9F4"
         android:textColorLink="#F44336"
         android:textSize="39sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,15 +77,15 @@ MAIN ACTIVITY-XML
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
-        android:text="def"
+        android:text="WORLD"
         android:textAlignment="center"
-        android:textColor="#673AB7"
+        android:textColor="#03A9F4"
         android:textColorHighlight="#9C27B0"
         android:textColorLink="#F44336"
         android:textSize="39sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintHorizontal_bias="0.763"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -139,16 +139,16 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-COLORS-XML
-
+COLOURS-XML
+```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
-
+```
 ANDROID MANIFEST-XML
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -175,12 +175,13 @@ ANDROID MANIFEST-XML
     </application>
 
 </manifest>
+```
+
 
 
 ## OUTPUT
-![image](https://github.com/21005290/lifecyclemethods/assets/112933246/737da8e0-177a-4958-81d4-28cf3e2b7f71)
-![image](https://github.com/21005290/lifecyclemethods/assets/112933246/909dc09b-15bc-47c4-a534-550c222a12c5)
 
+![WhatsApp Image 2024-04-08 at 8 17 53 AM](https://github.com/21002469/lifecyclemethods/assets/113591539/7679ee07-5ef4-43e5-b458-d7a794a71114)
 
 
 
